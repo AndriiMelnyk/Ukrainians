@@ -1,0 +1,540 @@
+body{
+	margin: 0;
+	padding-top: 60px;
+}
+
+.wrapper{
+	max-width: 100%;
+	background-color: #fff;
+}
+
+@font-face {
+	font-family:"Roboto Medium";
+	src:url("Roboto-Medium.eot?") 
+	format("eot"),url("Roboto-Medium.woff") 
+	format("woff"),url("Roboto-Medium.ttf") 
+	format("truetype"),url("Roboto-Medium.svg#Roboto-Medium") 
+	format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"Roboto Regular";
+	src:url("Roboto-Regular.eot?") 
+	format("eot"),url("Roboto-Regular.woff") 
+	format("woff"),url("Roboto-Regular.ttf") 
+	format("truetype"),url("Roboto-Regular.svg#Roboto-Regular")
+	format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+.header{
+	height: 69px;
+	width: 100%;
+	background-color: #00a1d9;
+	position: fixed;
+	top:0;
+	z-index: 2;
+}
+
+.header-active{
+	padding-top: 0;
+}
+
+.iconmenu{
+	display: none;
+	height: 30px;
+	width: 30px;
+	padding-left: 5px;
+	cursor: pointer;
+	left: 20px;
+	padding-top: 15px;
+	position: absolute;
+	z-index: 999;
+}
+
+.divide{
+	display: block;
+	height: 5px;
+	margin: 4px 0;
+	background-color:white;
+	border-radius: 20px;
+}
+
+.lenguage{
+	float: right;
+	margin-right: 26px;
+	color:white;
+	cursor:pointer;
+	font-family: "Roboto Medium";
+	font-size: 20px;
+	margin-top: 22px;
+}
+
+.Ukrainians{
+	width: 190px;
+	height: 60px;
+	background-color: #00a1d9;
+	margin: auto;
+}
+
+.Ukrainians-img{
+	margin-top: 5px;
+}
+
+.slider{
+	width: 100%;
+	background-color: #fff;
+	position: relative;
+}
+
+.big-img{
+	width: 100%;
+}
+
+.caption{
+	background:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	color: white;
+	z-index: 1;
+}
+
+.slider-bottomdiv{
+	width: 100%;
+	height: 41px;
+	bottom: 17px;
+	position: absolute;
+}
+
+.slider-bottom-first-icon{
+	background-color: #00a1d9;
+	width: 41px;
+	height: 41px;
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.slider-bottom-second-icon{
+	background-color:#00a1d9;
+	width: 41px;
+	height: 41px;
+	float: right;
+	margin-right: 19px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.pointer{
+	margin-top: 20px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+
+.Ukrainians-img{
+	margin-top: 5px;
+}
+
+.Rome{
+	float: right;
+	margin-top: 20px;
+	margin-right: 26px;
+	font-family: "Roboto Medium";
+}
+
+.slider-bottom-first-img{
+	margin-top: 7px;
+}
+
+.slider-bottom-second-img{
+	margin-top: 5px;
+}
+
+.content{
+	width: 100%;
+	background-color: #fff;
+}
+
+.paraponziro{
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: #fff;
+	border-bottom: 1px solid #ebebeb;
+	height: 50px;
+	padding-top: 25px;
+}
+
+.paraponziro-content{
+	margin: 0;
+	display: inline;
+	font-family: "Roboto Medium";
+	color: #313131;
+}
+
+.ten{
+	right: 5;
+	float: right;
+	font-size: 20px;
+	margin-right: 5px;
+	color: #313131;
+}
+
+.ten-small{
+	right: 0;
+	float: right;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #c0c0c0;
+}
+
+.buttons{
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: #fff;
+}
+
+.button{
+	width: 115px;
+	height: 40px;
+	margin-top: 15px;
+	border:none;
+	font-family:"Roboto Regular";
+}
+
+.lorem-ipsum{
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: #fff;
+	font-family:"Roboto Regular";
+}
+
+.images{
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: yellow;
+}
+
+.first-content-img{
+	width: 30%;
+	float: left;
+}
+
+.second-content-img{
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+
+.third-content-img{
+	width: 30%;
+	float: right;
+	margin-left: 5%;
+}
+
+.content-images{
+	width: 100%;
+}
+
+.schedule{
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+	background-color: white;
+	clear: both;
+}
+
+.days{
+	width: 150px;
+	background-color: #fff;
+	float: left;
+}
+
+.days-content{
+	font-family:"Roboto Regular";
+	padding-top: 18px;
+}
+
+.days-content-monday{
+	padding-top: 7px;
+	font-family:"Roboto Regular";
+}
+
+.days-content-tuesday{
+	padding-top: 14px;
+	font-family:"Roboto Regular";
+}
+
+.time-content{
+	font-family:"Roboto Regular";
+}
+
+.time{
+	width: 70px;
+	background-color: #fff;
+	float: left;
+}
+
+.schedule-work{
+	margin: 0;
+	padding-top: 20px;
+	font-family: "Roboto Medium";
+	color: #313131;
+}
+
+.developments{
+	width: 94%;
+	margin-left:3%;
+	margin-right:3%;
+	background-color: #f9f9f9;
+	clear: both;
+	padding-bottom: 47px;
+}
+
+.developments-content{
+	width: 96%;
+	margin-left:2%;
+	margin-right:2%;
+	background-color: #f9f9f9;
+	height: 50px;
+}
+
+.orange-pointer{
+	float: right;
+	margin-top: 19px;
+	cursor: pointer;
+}
+
+.events{
+	float: left;
+	font-family:"Roboto Regular";
+	color: #303030;
+}
+.empty{
+	clear: both;
+}
+
+.all-events{
+	float: right;
+	color: #55b5e0;
+	margin-right: 7px;
+	cursor:pointer;
+}
+
+.developments-img{
+	width: 96%;
+	margin-left:2%;
+	margin-right:2%;
+	background-color: #f9f9f9;
+}
+
+.developments-first-img{
+	width: 45%;
+	background-color: #f9f9f9;
+	clear: both;
+	float: left;
+	position: relative;
+}
+
+.first-developments-img{
+	width: 100%;
+}
+
+.developments-second-img{
+	width: 45%;
+	float: right;
+	background-color: #f9f9f9;
+	position: relative;
+}
+
+.developments-caption{
+	background:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	color: white;
+	text-align: center;
+}
+
+.developments-caption-content{
+	font-family: "Roboto Medium"; 
+}
+
+.footer{
+	width: 94%;
+	margin-left:3%;
+	margin-right:3%;
+	background-color:#00a1d9;
+	clear: both;
+}
+
+.left-footer-content{
+	width: 45%;
+	background-color: #00a1d9;
+	float: left;
+	padding-top: 40px;
+}
+
+.right-footer-content{
+	width: 45%;
+	background-color: #00a1d9;
+	height: 100px;
+	float: right;
+	padding-top: 40px;
+}
+
+.left-content{
+	display: block;
+	float: right;
+	clear: both;
+	margin-top: 4px;
+	color: white;
+	font-family:"Roboto Regular";
+}
+
+.right-content{
+	margin-top: 4px;
+	color: white;
+	font-family:"Roboto Regular";
+}
+
+.social-networks{
+	width:180px;
+	margin: auto;
+	height: 60px;
+	clear: both;
+	margin-top: 40px;
+	padding-bottom: 30px;
+}
+
+.facebook{
+	width: 50px;
+	height: 50px;
+	background-color: #00a1d9;
+	float: left;
+	border-radius: 50px;
+	border:3px solid white;
+	text-align: center;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.twitter{
+	width: 50px;
+	height: 50px;
+	background-color: #00a1d9;
+	float: left;
+	margin-left: 9px;
+	border-radius: 50px;
+	border:3px solid white;
+	text-align: center;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.google{
+	width: 50px;
+	height: 50px;
+	background-color: #00a1d9;
+	float: right;
+	border-radius: 50px;
+	border:3px solid white;
+	text-align: center;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.social-networks-img{
+	margin-top: 12px;
+}
+
+.ukrainians-footer{
+	width: 100%;
+	height: 103px;
+	background-color: #f9f9f9;
+	padding-top: 35px;
+}
+
+.Ukrainians-img-footer{
+	width: 190px;
+	margin: auto;
+	text-align: center;
+}
+
+.developments-caption-content:hover{
+	color:#f2d140;
+	cursor: pointer;
+}
+
+.left-content:hover{
+	color:#f2d140;
+	cursor: pointer;
+}
+
+.right-content:hover{
+	color:#f2d140;
+	cursor: pointer;
+}
+
+button:hover{
+	background:#f2d140;
+	cursor: pointer;
+}
+.facebook:hover{
+	background: white;
+}
+
+.social-networks-img{
+	background:#00a1d9;
+}
+
+.fa{
+	font-size: 100px;
+	color: white;
+	margin-top: 15px;
+}
+
+.fa:hover{
+	color:#00a1d9;
+}
+
+.twitter:hover{
+	background: white;
+}
+
+.google:hover{
+	background: white;
+}
+
+@media screen and (max-width: 768px){
+.iconmenu{display: block;}
+}
+
+@media screen and (max-width: 422px) {
+.iconmenu{display: block;}
+.developments-caption{height: 100px;}
+.button{width: 100px;}
+
+}
+
+
+
+
+
+
+
+
+
+
